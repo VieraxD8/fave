@@ -1,0 +1,117 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+
+
+.contenedor-atencion{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:  10px;
+    background-color: v.$contraste;;
+    
+}
+.atencion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.atencion-body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.atencion-title {
+    margin-top: 0;
+    font-family: v.$mono;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: v.$prinpipal;
+}
+
+
+
+.atencion-title:hover {
+    
+    border-radius: 40px;
+    background-color: v.$prinpipal;
+    color: white;
+
+}
+
+
+
+.atencion-description {
+    
+    color: v.$prinpipal;
+    line-height: 1.2;
+    font-family: v.$lato;
+    font-size: 25px;
+    margin-top: 20px;
+    color: v.$prinpipal;
+}
+
+/*
+
+.atenciones {
+    height: auto;
+    overflow: hidden;
+    background-color: v.$contraste;
+    align-items: center;
+}
+
+
+.atencion {
+    display: flex;
+    justify-content: center;
+   margin: 0;
+}
+
+.back-atencion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 450px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+
+.title-atencion {
+    
+    margin-top: 0;
+    font-family: v.$mono;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: v.$prinpipal;
+
+}
+
+.title-atencion:hover {
+    
+    border-radius: 40px;
+    background-color: v.$prinpipal;
+    color: white;
+
+}
+
+.parrafo-atencion {
+    color: v.$prinpipal;
+    line-height: 1.2;
+    font-family: v.$lato;
+    font-size: 25px;
+    margin-top: 20px;
+    color: v.$prinpipal;
+}
+
+.atencion-picture  {
+
+    align-items: center;
+  
+}
+
+*/

@@ -1,0 +1,111 @@
+@use './variables' as v;
+
+
+/** Media Queries **/
+
+
+
+@mixin telefonofold {
+    @media (max-width: v.$telefonofold) {
+        @content;
+    }
+}
+
+@mixin telefono {
+    @media (max-width: v.$telefono) {
+        @content;
+    }
+}
+
+@mixin telefono12 {
+    @media (max-width: v.$telefono12) {
+        @content;
+    }
+}
+
+@mixin tablet5 {
+    @media (max-width: v.$tablet5) {
+        @content;
+    }
+}
+
+
+@mixin tablet {
+    @media (max-width: v.$tablet) {
+        @content;
+    }
+}
+
+@mixin tablet8 {
+    @media (max-width: v.$tablet8) {
+        @content;
+    }
+}
+
+@mixin tablet9 {
+    @media (max-width: v.$tablet9) {
+        @content;
+    }
+}
+
+@mixin tabletx {
+    @media (max-width: v.$tabletx) {
+        @content;
+    }
+}
+
+
+@mixin desktop {
+    @media (max-width: v.$desktop) {
+        @content;
+    }
+}
+
+@mixin desktopmin {
+    @media (max-width: v.$desktopmin) {
+        @content;
+    }
+}
+
+@mixin tabletminx {
+    @media (min-width: v.$tabletminx) {
+        @content;
+    }
+}
+
+@mixin desktopmax {
+    @media (min-width: v.$desktopmax) {
+        @content;
+    }
+}
+
+@mixin desktopx {
+    @media (min-width: v.$desktopx) {
+        @content;
+    }
+}
+
+
+@mixin desktopxl {
+    @media (min-width: v.$desktopxl) {
+        @content;
+    }
+}
+
+
+
+
+
+@mixin desktopxl {
+    @media (max-width: v.$desktopxl) {
+        @content;
+    }
+}
+
+
+@mixin desktopxll {
+    @media (min-width: v.$desktopxll) {
+        @content;
+    }
+}
+

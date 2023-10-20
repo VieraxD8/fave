@@ -1,0 +1,1 @@
+window.onscroll=function(){var e=document.querySelector(".menu");window.pageYOffset>0?e.classList.add("menu-scroll"):e.classList.remove("menu-scroll")};

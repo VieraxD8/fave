@@ -1,0 +1,87 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+
+.contenedor-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:  10px;
+    background-color: v.$prinpipal;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-atencion {
+    margin-top: 20px;
+}
+
+.footer-numero,
+.footer-correo,
+.footer-direccion {
+    color: white;
+    margin: 0;
+    line-height: 1.3;
+    font-family: v.$lato;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.footer-direccion {
+    margin-right: 30px;
+}
+
+
+/*
+
+.back-footer {
+    background-color: v.$prinpipal;
+    height: auto;
+    overflow: hidden;
+    
+    
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-footer {
+    width: 450px;
+}
+
+.nuermo-p,
+.correo-p,
+.direccion-p {
+    color: white;
+    margin: 0;
+    line-height: 1.3;
+    font-family: v.$lato;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.logo-F {
+    width: 350px;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+
+.info-F {
+    margin-top: 40px;
+    width: 350px;
+ 
+  
+}
+
+
+*/

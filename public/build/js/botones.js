@@ -1,0 +1,1 @@
+const buttons=document.querySelectorAll(".botones");buttons.forEach(t=>{t.addEventListener("click",(function(t){const e=t.pageX,o=t.pageY,s=t.target.offsetTop,n=e-t.target.offsetLeft,c=o-s,a=document.createElement("span");a.classList.add("circles"),a.style.top=c+"px",a.style.left=n+"px",this.appendChild(a),setTimeout(()=>a.remove(),500)}))});

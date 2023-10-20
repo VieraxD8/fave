@@ -1,0 +1,17 @@
+{
+    "name": "alfredoviera/ableton_frontend",
+    "description": "aprendizaje",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "VieraxD",
+            "email": "vieraalfredoj@gmail.com"
+        }
+    ],
+    "require": {}
+}
