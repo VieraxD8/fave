@@ -8,7 +8,7 @@ use Controllers\PropiedadControllers;
 
 $router = new Router();
 
-$router->get('/faveinsurance', [PropiedadControllers::class,'Index']);
+$router->get('/', [PropiedadControllers::class,'Index']);
 
 
 
