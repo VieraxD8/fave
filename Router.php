@@ -1,53 +1,49 @@
-<?php 
+<?php
 
 namespace MVC;
 
 class Router {
-
-    public $RutasGet = [];
-    public $RutasPost = [];
+  
+    public $rutasGET  = [];
 
     public function get($url, $fn){
-        $this-> RutasGet[$url] = $fn;
-    }
 
+        $this->rutasGET[$url] = $fn;
+    }
 
     public function comprobarRutas() {
 
-        $urlActual = $_SERVER['PATH_INFO'] ?? '/';
-
+        $urlActual = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
         $metodo = $_SERVER['REQUEST_METHOD'];
 
-        if( $metodo === 'GET'){
-            $fn = $this->RutasGet[$urlActual] ?? null;
+        if($metodo === 'GET'){
+
+            $fn = $this->rutasGET[$urlActual] ?? null;
         }
 
-        if($fn) {
+        if($fn){
+
             call_user_func($fn, $this);
-        } else {
-            echo " pagina no encontrada ";
-        }
 
+        }else {
+            echo "PAGINA NO ENCONTRADA";
+        }
     }
 
-    public function render($vistas, $datos = []){
+
+    //Muestra las vistas 
+
+    public function render($vista) {
 
         ob_start();
 
-        include __DIR__ . "/views/$vistas.php";
+        include __DIR__ . "/views/$vista.php";
 
         $contenido = ob_get_clean();
 
         include __DIR__ . "/views/layout.php";
 
-        foreach( $datos as $key => $value) {
-
-            $$key = $value;
-        }
-
-
     }
 
-
-
+    
 }
