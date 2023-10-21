@@ -338,7 +338,8 @@
 
           <div class="atencion">
               <div class="atencion-header">
-                    <a href="#"> <img class="tellamamos" loading="lazy" src="build/img/tellamamosS.png" alt="tellamamos"></a>
+                   
+                    <a href="#"> <img class="cobertura" loading="lazy" src="build/img/coberturaS.png" alt="cobertura"></a>
               </div>
               <div class="atencion-t">
                   <a href="#"><p class="atencion-title">Cobertura a Tu Medida</p></a>
@@ -353,7 +354,7 @@
 
           <div class="atencion">
               <div class="servicio-header">
-                  <a href="#"> <img class="cobertura" loading="lazy" src="build/img/coberturaS.png" alt="cobertura"></a>
+               <a href="#"> <img class="tellamamos" loading="lazy" src="build/img/tellamamosS.png" alt="tellamamos"></a>
               </div>
               <div class="atencion-t">
                   <a href="#"><p class="atencion-title">Te llamamos</p></a>
