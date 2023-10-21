@@ -26,6 +26,8 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    justify-content: center;
+    text-align: center;
    
 }
 
@@ -39,6 +41,8 @@
         height: 100%;
     }
 }
+
+
 .informacion-titulo {
     flex-grow: 1;
 }
@@ -78,6 +82,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -94,82 +99,95 @@
 
 
 
-
-
+/* responsive telefono*/
 
 /*
 
-.contenedor-informacion{
+@include m.telefono12 {
+    .contenedor-informacion{
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .separador {
+
+       display: none;
+    }
+
+    .informacion-p {
+
+        margin-bottom: 20px;
+        margin-top: 15px;
+        
+      
+    }
     
-    display: grid;
-    grid-template-columns: 40% 20% 40%; 
-    background-color: v.$prinpipal;
-}
+}*/
 
-.informacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@include m.tabletx {
+    .contenedor-informacion{
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .separador {
+
+       display: none;
+    }
+
+    .informacion-p {
+
+        margin-bottom: 20px;
+        margin-top: 15px;
+        
+      
+    }
     
 }
 
 
-.foto6 {
+@media (min-width: 761px) and (max-width: 1399px) {
     
-    border-radius: 40px;
-    width: 271.31px;
-    height: 333.53px;
-    background-color: v.$prinpipal;
-    margin-top: 30px;
-    margin-bottom: 25px;
+
+    .contenedor-informacion{
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .separador {
+
+       display: none;
+    }
+
+    .informacion-p {
+
+        margin-bottom: 20px;
+        margin-top: 15px;
+        
+    }
+
+    .informacion-header {
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+        img {
+            height: 293.58px;
+            width: 440.44px;
+        }
+    }
+
 }
 
 
 
 
-.informacion-body{
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
 
+/* responsive telefono*/
 
-
-.separador {
-
-    border: none;
-    width: 1px;
-    border-left: 2px solid white;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.informacion-titulo {
-    color: white;
-    margin: 0;
-    text-indent: 20px; 
-    margin-top: 20px;
-    font-family: v.$monserrat;
-    font-weight: 500;
-    font-size: 45px;
-    text-align: center;
-}
-
-.informacion-p {
-    color: white;
-    margin: 0;
-    line-height: 1.2;
-    padding-left: 40px;
-    padding-right: 40px ;
-    font-family: v.$lato;
-    font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-
-*/

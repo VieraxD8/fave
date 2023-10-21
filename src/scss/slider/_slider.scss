@@ -19,8 +19,6 @@
     background-size: cover;
     transition: 0.4s;
 
-   
-    
 }
 
 
@@ -146,8 +144,82 @@
   clip-path: circle(49.9% at 50% 50%);
 }
 
-
-
+.familiatelefono, 
+  .sonrisatelefono,
+  .visiontelefono,
+  .doctorestelefono {
+    display: none;
+  }
 
 
 /*imagenes del slider */
+
+
+/*responsive telefono*/
+
+ 
+@include m.tabletx {
+
+  .arrow {
+   display: none;
+  }
+
+.familia,
+.sonrisa,
+.doctores,
+.vision {
+ display: none;  
+}
+  
+  .familiatelefono, 
+  .sonrisatelefono,
+  .visiontelefono,
+  .doctorestelefono {
+    clip-path: circle(43.9% at 50% 50%);
+    z-index: -2;
+    display: flex;
+    position: absolute;
+  }
+
+} 
+
+
+
+/*responsive telefono*/
+
+
+@media (min-width: 761px) and (max-width: 1020px) {
+    
+    .slider {
+
+      height:450px;
+
+    }
+    
+.slide-indicators {
+
+  top: 420px;
+ 
+}
+
+
+}
+
+
+@media (min-width: 1020px) and (max-width: 1400px) {
+    
+  .slider {
+
+    height:450px;
+
+  }
+  
+.slide-indicators {
+
+top: 420px;
+
+}
+
+
+}
+

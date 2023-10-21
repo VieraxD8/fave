@@ -28,6 +28,8 @@
     margin-right: -10px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
+    align-items: center;
    
 }
 
@@ -74,4 +76,60 @@
 .servicio-description:hover {
     color: yellow;
 }
+
+
+/* responsive telefono*/
+/*
+@include m.telefono12 {
+    .contenedor{
+        
+        display: flex;
+        flex-direction: column;
+    }
+}
+*/
+@include m.tabletx {
+    .contenedor{
+        
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+    }
+}
+
+
+@media (min-width: v.$telefonofold) and (max-width: v.$tabletx) {
+    .servicio-header {
+    
+        height: 199px;
+        width: 335px;
+        img {
+            height: 100%;
+        }
+    }
+}
+
+
+/* responsive telefono*/
+
+
+@media (min-width: 761px) and (max-width: 1315px) {
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(5, 10rem);
+        margin: 0;
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+    }
+}
+    
 

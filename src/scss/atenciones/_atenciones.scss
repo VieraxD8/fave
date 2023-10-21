@@ -18,7 +18,7 @@
     margin-top: 0;
     margin-bottom: 0;
     justify-content: center;
-    align-items: center;
+    
    
 }
 
@@ -26,11 +26,14 @@
     
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     margin-left: -10px;
     margin-right: -10px;
     padding-left: 20px;
     padding-right: 20px;
+ 
    
 }
 
@@ -66,4 +69,98 @@
     line-height: 1.3;
     
 }
+.atencions {
+    height: 177.36px;
+    width: 315px;
+}
+
+
+
+
+@include m.tabletx {
+  
+    .contenedor-atencion{
+
+       display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 100px;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+    }    
+  
+    .atencion-header {
+    
+        height: 123.35px;
+        width: 220.44px;
+        img {
+            height: 100%;
+        }
+    }
+
+    .atencions {
+        height: 123.35px;
+        width: 220.44px;
+    }
+}
+
+  
+  
+  /* responsive telefono*/
+
+  @media (min-width: v.$telefonofold) and (max-width: v.$tabletx) {
+    .atencion-header {
+    
+        height: 199px;
+        width: 335px;
+        img {
+            height: 100%;
+        }
+    }
+
+    .atencions {
+        height: 199px;
+        width: 335px;
+    }
+
+}
+
+
+@media (min-width: 761px) and (max-width: 1315px) {
+    
+
+    .contenedor-atencion{
+
+        background-color: v.$contraste;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 15rem);
+        gap:  10px;
+        padding: 55px;
+        padding-top: 0;
+        padding-bottom: 35px;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+         
+     }    
+   
+     .atencion-header {
+     
+        height: 163.35px;
+        width: 280.44px;
+        img {
+            height: 100%;
+        }
+    }
+
+     .atencions {
+        height: 163.35px;
+        width: 280.44px;
+    }
+
+
+}
+
 

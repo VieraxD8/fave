@@ -57,3 +57,24 @@
   padding: 0;
   margin: 20px auto 0 auto;
 }
+
+
+/* responsive telefono*/
+
+@include m.telefono12 {
+  
+  .nosotros-row{
+      
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+  }
+  .separador-horizontal {
+
+     display: none;
+  }
+  
+}
+
+
+/* responsive telefono*/

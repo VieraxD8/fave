@@ -11,6 +11,7 @@
 
                     <picture class="picture" >
                       <img class="familia" loading="lazy" src="build/img/familia2.png" alt="imagen de familia">
+                      <img class="familiatelefono" loading="lazy" src="build/img/saludtelefono.png" alt="imagen de familia">
                     </picture>
                       <span class="title-1">Cobertura Integral de Salud</span>
                       <p class="texto-1">Atención médica, hospitalización y medicamentos recetados</p>      
@@ -19,7 +20,9 @@
               <div class="slide">
               <picture class="picture" >
                 <img class="sonrisa" loading="lazy"  src="build/img/sonrisa.png" alt="imagen de sonrisa">
-              </picture><span class="title-2">Sonrisas Saludables <br>Garantizadas</span>
+                <img class="sonrisatelefono" loading="lazy"  src="build/img/dientestelefono.png" alt="imagen de sonrisa">
+              </picture>
+                <span class="title-2">Sonrisas Saludables <br>Garantizadas</span>
                 <p class="texto-2">Nuestro plan dental cubre limpiezas regulares, tratamientos y cirugía dental a precios asequibles</p>  
             </div>
 
@@ -27,6 +30,7 @@
               class="slide"
               ><picture class="picture" >
                 <img class="vision" loading="lazy"src="build/img/vision1.png" alt="imagen de vision">
+                <img class="visiontelefono" loading="lazy"  src="build/img/visiontelefono.png" alt="imagen de sonrisa">
               </picture>
               
               <span class="title-3">Cuidado Visual Premium</span>
@@ -38,6 +42,7 @@
               >
               <picture class="picture" >
                 <img class="doctores" loading="lazy"  src="build/img/medicos1.png" alt="imagen de doctores">
+                <img class="doctorestelefono" loading="lazy"  src="build/img/revisiontelefono.png" alt="imagen de sonrisa">
               </picture>
               <span class="title-4">Detección Temprana <br>Esperanza Duradera</span>
                 <p class="texto-4">Nuestra cobertura de diagnóstico de cáncer te brinda tranquilidad, con pruebas de detección temprana y tratamiento de vanguardia</p>  
@@ -198,7 +203,7 @@
             <div class="informacion">
                 
                 <div class="informacion-header">
-                    <img class="foto6" loading="lazy" src="build/img/segurodevida.jpg" alt="Representante de seguro">
+                    <img class="foto6" loading="lazy" src="build/img/segurodevida.png" alt="Representante de seguro">
                 </div>
 
                   <div class="informacion-titulo">
@@ -218,7 +223,7 @@
             <div class="informacion">
                 
                 <div class="informacion-header">
-                    <img class="foto6" loading="lazy" src="build/img/segurodesalud.jpg" alt="Representante de seguro">
+                    <img class="foto6" loading="lazy" src="build/img/segurodesalud.png" alt="Representante de seguro">
                 </div>
 
                   <div class="informacion-titulo">
@@ -239,7 +244,9 @@
             <div class="informacion">
                 
                 <div class="informacion-header">
-                      <img class="foto6" loading="lazy" src="build/img/dentistas.jpg" alt="Representante de seguro">
+                  
+                      <img class="foto6" loading="lazy" src="build/img/dentistas.png" alt="Representante de seguro">
+                  
                 </div>
 
                 <div class="informacion-titulo">
@@ -259,7 +266,7 @@
             <div class="informacion">
                 
                 <div class="informacion-header">
-                      <img class="foto6" loading="lazy" src="build/img/seguronecesitas.jpg" alt="Representante de seguro">
+                      <img class="foto6" loading="lazy" src="build/img/seguronecesitas.png" alt="Representante de seguro">
                 </div>
 
                 <div class="informacion-titulo">
@@ -296,7 +303,7 @@
             <div class="asesores">
 
                 <div class="asesor">
-                      <img class="" loading="lazy" src="build/img/image2.jpeg" alt="Representante de seguro">
+                      <img class="" loading="lazy" src="build/img/image2.png" alt="Representante de seguro">
                 </div>
 
             </div>
@@ -313,7 +320,7 @@
             <div class="asesores">
 
                 <div class="asesor">
-                      <img class="" loading="lazy" src="build/img/image1.jpeg" alt="Representante de seguro">
+                      <img class="" loading="lazy" src="build/img/image1.png" alt="Representante de seguro">
                 </div>
                 
             </div>
@@ -353,7 +360,7 @@
 
 
           <div class="atencion">
-              <div class="servicio-header">
+              <div class="atencion-header">
                <a href="#"> <img class="tellamamos" loading="lazy" src="build/img/tellamamosS.png" alt="tellamamos"></a>
               </div>
               <div class="atencion-t">
@@ -366,8 +373,8 @@
           </div>
 
           <div class="atencion">
-              <div class="servicio-header">
-                 <a href="#"><img class="atencion atencion-picture" loading="lazy" src="build/img/atencionS.png" alt="atencion"></a>
+              <div class="atencion-header">
+                 <a href="#"><img class="atencions" loading="lazy" src="build/img/atencionS.png" alt="atencion"></a>
               </div>
               <div class="atencion-t">
                     <a href="#"><p class="atencion-title">Atención personalizada 24/7</p></a>

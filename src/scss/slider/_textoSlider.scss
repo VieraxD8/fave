@@ -61,7 +61,7 @@ margin: 0;
 padding: 0;
 line-height: 1;
 font-weight: 900;
-display: inline-flex;
+display: inline-block;
 top: 300px;
 left: 150px;
 }
@@ -78,11 +78,11 @@ left: 150px;
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.753);
+    background-color: rgba(255, 255, 255, 0.2);
     font-weight: 700;
     color: v.$prinpipal;
-    font-size: 60px;
-    top: 240px;
+    font-size: 55px;
+    top: 145px;
 }
 
 
@@ -126,3 +126,163 @@ left: 150px;
 
 
 /*slider 4*/
+
+/*responsive telefono*/
+
+
+@include m.tabletx {
+    .title-1 {
+
+        font-size: 30px;
+        top: 150px;
+    
+    }
+
+    .texto-1 {
+    display: none;
+    }
+
+
+    /*slider 2*/
+
+    .title-2 {
+        font-size: 30px;
+        top: 180;
+        right: 30px;
+    }
+
+    .texto-2 {
+        display: none;
+    }
+
+
+    /*slider 2*/
+
+
+    /*slider 3*/
+    .title-3 {
+        
+        font-size: 30px;
+        top: 150px;
+    }
+    /*slider 3*/
+
+    /*slider 4*/
+
+    .title-4 {
+        
+        top: 170px;
+        left: 0px;
+        font-size: 30px;
+        
+    }
+
+    .texto-4 {
+    display: none;
+    }
+
+
+/*slider 4*/
+
+}
+
+
+/*responsive telefono*/
+
+
+@media (min-width: 761px) and (max-width: 1020px) {
+
+    .title-1 {
+
+        font-size: 30px;
+        top: 150px;
+    
+    }
+
+    .texto-1 {
+        top: 250px;
+    }
+
+    .title-2 {
+        font-size: 30px;
+        top: 100;
+        right: 80px;
+    }
+    
+    .texto-2 {
+       display: none;
+    }
+
+
+    .title-4 {
+        
+        top: 170px;
+        left: 0px;
+        font-size: 30px;
+        
+    }
+
+    .texto-4 {
+    display: none;
+    }
+    
+}
+ 
+
+@media (min-width: 1020px) and (max-width: 1400px) {
+    
+    .title-1 {
+
+        font-size: 48px;
+        top: 150px;
+    
+    }
+
+    .texto-1 {
+        top: 250px;
+    }
+
+    .title-2 {
+        font-size: 48px;
+        top: 100;
+        right: 80px;
+    }
+    
+    .texto-2 {
+       display: none;
+    }
+
+
+    .title-4 {
+        
+        top: 170px;
+        left: 0px;
+        font-size: 48px;
+        
+    }
+
+    .texto-4 {
+    display: none;
+    }
+  
+  }
+
+  @media (min-width: 1450px) and (max-width: 1950px) {
+
+    .title-2 {
+        font-size: 48px;
+        top: 100;
+        right: -200px;
+    }
+    
+ 
+    .texto-2 {
+       
+        font-size: 25px;
+        top: 300px;
+        left: -150px;
+    }
+        
+
+   
+  }

@@ -9,7 +9,7 @@
 
               <div class="footer">
 
-                  <div class="atencion-header">
+                  <div class="footer-imagen">
                       <a href="#"> <img class="logo-atencion " loading="lazy" src="build/img/logoSS.png" alt="logo"></a>
                   </div>
                   
