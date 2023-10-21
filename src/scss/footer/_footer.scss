@@ -4,9 +4,11 @@
 
 .contenedor-footer{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 20rem);
     gap:  10px;
     background-color: v.$prinpipal;
+    place-items: center;
+    justify-content: center;
 }
 .footer{
     display: flex;

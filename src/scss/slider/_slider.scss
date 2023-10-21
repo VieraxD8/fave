@@ -8,20 +8,18 @@
 }
 
 .slider {
-    font-family: 'Roboto', sans-serif;
+
+   height:550px;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
-   
-    overflow: hidden;
     margin: 0;
     background-position: center center;
     background-size: cover;
     transition: 0.4s;
 
-    padding-top: 80px; /*Añade espacio en la parte superior para evitar que el contenido se superponga con la barra de menú */
+   
     
 }
 
@@ -29,7 +27,7 @@
 
 .slider-container {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     position: relative;
     overflow: hidden;
@@ -99,7 +97,7 @@
 .slide-indicators {
   position: absolute;
   text-align: center;
-  margin-top: 280px;
+  top: 520px;
   z-index: 5;
 }
 

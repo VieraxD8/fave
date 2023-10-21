@@ -1,0 +1,57 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+
+.contenedor-nosotros{
+    max-width: 1180px;
+    width: inherit;
+  box-sizing: content-box;
+  
+}
+
+
+.nosotros {
+
+    padding: 55px;
+    padding-top: 0;
+  padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+
+}
+    
+
+.nosotros-row {
+    max-width: 728px;
+    height: fit-content;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+    flex: 0 0 54.16667%;
+}
+
+.nosotros-title {
+    font-family: v.$roboto;
+    font-size: 40px;
+    line-height: 43px;
+    margin-bottom: 2rem;
+}
+
+.nosotros-description {
+    font-size: 16px;
+    margin-bottom: 1rem;
+     margin-top: 0;
+     line-height: 24px;
+     font-family: v.$lato;
+}
+.separador-horizontal {
+    border-top: 2px solid #d5ceb5;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}

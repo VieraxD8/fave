@@ -6,21 +6,34 @@
     background-color: v.$contraste;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 15rem);
     gap:  10px;
-    margin: 0 auto; 
+    padding: 55px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+   
 }
 
 
 .servicio{
-    display: flex;
-    flex-direction: column;
     
-}
-.servicio-body{
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.servicio-body{
+    flex-grow: 0.5;
+   
 }
 
 .servicio-title,
@@ -35,11 +48,16 @@
     font-weight: 300;
     font-weight: bolder;
     line-height: 1;
-    font-size: 25px;
+    font-size: 20px;
     color: v.$prinpipal;
     text-align: center;
     margin-bottom: 20px;
     
+}
+
+.description {
+    padding-left: 20px;
+  padding-right: 20px;
 }
 
 .servicio-description {

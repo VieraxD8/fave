@@ -5,16 +5,14 @@
 .title-1 {
        
     position: relative;
-    top: 35px;
-    right: 175px;
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.637);
-    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
     font-weight: 700;
     color: v.$prinpipal;
     font-size: 43px;
+    top: 145px;
 }
 
 .texto-1 {
@@ -23,12 +21,12 @@ font-size: 28px;
 color: v.$prinpipal;
 position: relative;
 background-color: rgba(255, 255, 255, 0.637);
-top: 180px;
 margin: 0;
 padding: 0;
 line-height: 1;
 font-weight: 900;
 display: inline-block;
+top: 378px;
 }
 
 /*slider 1*/
@@ -38,17 +36,15 @@ display: inline-block;
 .title-2 {
        
     position: relative;
-    top: 50px;
-  
+    top: 180px;
+    left: 150px;
+    background-color: rgba(255, 255, 255, 0.7);
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
   
     font-weight: 700;
-    border-radius: 50px;
-    padding-left: 2px;
-    padding-right: 0.5px;
-    color: white;
+    color: v.$prinpipal;
     font-size: 55px;
     display: inline-block;
 
@@ -61,12 +57,13 @@ font-size: 25px;
 color: v.$prinpipal;
 position: relative;
 background-color: rgba(255, 255, 255, 0.637);
-top: 150px;
 margin: 0;
 padding: 0;
 line-height: 1;
 font-weight: 900;
 display: inline-flex;
+top: 300px;
+right: 150px;
 }
 
 
@@ -78,16 +75,14 @@ display: inline-flex;
 .title-3 {
        
     position: relative;
-    top: 50px;
-    right: 400px;
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.753);
-    border-radius: 30%;
     font-weight: 700;
     color: v.$prinpipal;
     font-size: 60px;
+    top: 240px;
 }
 
 
@@ -99,29 +94,34 @@ display: inline-flex;
 .title-4 {
        
     position: relative;
-    top: 50px;
-    right: 400px;
+    top: 180px;
+    left: 280px;
+    background-color: rgba(255, 255, 255, 0.7);
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.200);
+  
     font-weight: 700;
+   
+    padding-left: 2px;
+    padding-right: 0.5px;
     color: v.$prinpipal;
-    font-size: 60px;
+    font-size: 55px;
+    display: inline-block;
 }
 
 .texto-4 {
-font-family: v.$lato;
-font-size: 25px;
-color: v.$prinpipal;
-position: relative;
-background-color: rgba(255, 255, 255, 0.637);
-top: 100px;
-margin: 0;
-padding: 0;
-line-height: 1;
-font-weight: 900;
-display: inline-block;
+    font-family: v.$lato;
+    font-size: 28px;
+    color: v.$prinpipal;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.637);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 900;
+    display: inline-block;
+    top: 290px;
 }
 
 

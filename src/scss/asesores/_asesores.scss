@@ -1,0 +1,63 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+
+.contenedor-asesores{
+   
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    margin: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+   
+}
+
+
+.contenedor-asesor{
+    
+    height: auto;
+    display: grid;
+    grid-template-columns: 40rem 5rem 40rem;
+    gap:  10px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    justify-content: center;
+    
+   
+}
+.asesores-titulos {
+    display: flex;
+    align-items: flex-start;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: v.$mono;
+    font-weight: 300;
+    font-weight: bolder;
+    line-height: 1;
+    color: v.$prinpipal;
+    
+}
+
+.separador-A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asesor-separador {
+    border: none;
+    width: 1px;
+    border-left: 2px solid v.$prinpipal;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
