@@ -174,7 +174,7 @@
 
 
 
-@media (min-width: 761px) and (max-width: 1399px) {
+@media (min-width: 761px) and (max-width: 1000.9px) {
     
 
     .contenedor-informacion{
@@ -206,6 +206,42 @@
         img {
             height: 293.58px;
             width: 440.44px;
+        }
+    }
+
+}
+
+
+@media (min-width: 1001px) and (max-width: 1399px) {
+
+
+    .contenedor-informacion{
+    
+        height: auto;
+        display: grid;
+        grid-template-columns: 15rem 1rem 15rem 1rem 15rem 1rem 15rem ;
+        gap:  5px;
+        margin: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
+        justify-content: center;
+       
+    }
+    
+
+    .informacion-p {
+
+        margin-bottom: 20px;
+        margin-top: 15px;
+        
+    }
+
+    .informacion-header {
+
+        height: 17rem;
+    
+        img {
+           width: 100%;
         }
     }
 
