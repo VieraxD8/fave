@@ -83,70 +83,51 @@
 
           <div class="servicio">
               <div class="servicio-header">
-                <img class="salud" loading="lazy" src="build/img/saludF.png" alt="salud">
+              <a href="#salud"> <img class="salud" loading="lazy" src="build/img/saludF.png" alt="salud"></a>
               </div>
               <div class="servicio-body">
-                  <p class="servicio-title">Seguros de Salud</p>
-              </div>
-              <div class="descripcion">
-                  <a href="#"><p class="servicio-description">contáctanos</p></a>
-              </div>
-                
+              <a href="#vida"> <p class="servicio-title">Seguros de Salud</p></a>
+              </div> 
           </div>
 
           <div class="servicio">
               <div class="servicio-header">
-                  <img class="vida" loading="lazy" src="build/img/vidaF.png" alt="vida">
+              <a href="#vida">  <img class="vida" loading="lazy" src="build/img/vidaF.png" alt="vida"></a>
               </div>
               <div class="servicio-body">
-                  <p class="servicio-title">Seguros de Vida</p>
+              <a href="#vida">  <p class="servicio-title">Seguros de Vida</p></a>
                   </div>
-              <div class="descripcion">
-                  <a href="#"><p class="servicio-description">contáctanos</p></a>
-                
+          </div>
+
+
+          <div class="servicio">
+              <div class="servicio-header">
+              <a href="#otros"> <img class="visionF" loading="lazy" src="build/img/visionF.png" alt="vision"></a>
+              </div>
+              <div class="servicio-body">
+              <a href="#otros"> <p class="servicio-title">Seguros de visión</p></a>
+              </div>
+           
+          </div>
+
+
+          <div class="servicio">
+              <div class="servicio-header">
+              <a href="#otros">    <img class="dientes" loading="lazy" src="build/img/dientesF.png" alt="dientes"></a>
+              </div>
+              <div class="servicio-body">
+              <a href="#otros">    <p class="servicio-title">Seguros dentales</p></a>
               </div>
           </div>
 
 
           <div class="servicio">
               <div class="servicio-header">
-                  <img class="visionF" loading="lazy" src="build/img/visionF.png" alt="vision">
+              <a href="#necesitas"> <img class="diagnostico" loading="lazy" src="build/img/diagnosticoF.png" alt="diagnosticos"></a>
               </div>
               <div class="servicio-body">
-                  <p class="servicio-title">Seguros de visión</p>
-              </div>
-              <div class="descripcion">
-                  <a href="#"><p class="servicio-description">contáctanos</p></a>
-                
-              </div>
-          </div>
-
-
-          <div class="servicio">
-              <div class="servicio-header">
-                <img class="dientes" loading="lazy" src="build/img/dientesF.png" alt="dientes">
-              </div>
-              <div class="servicio-body">
-                  <p class="servicio-title">Seguros dentales</p>
-              </div>
-              <div class="descripcion">
-                  <a href="#"><p class="servicio-description">contáctanos</p></a>
-                
-              </div>
-          </div>
-
-
-          <div class="servicio">
-              <div class="servicio-header">
-                <img class="diagnostico" loading="lazy" src="build/img/diagnosticoF.png" alt="diagnosticos">
-              </div>
-              <div class="servicio-body">
-                  <p class="servicio-title">Seguros diagnostico de cancer</p>
+              <a href="#necesitas"><p class="servicio-title">Seguros diagnostico de cancer</p></a>
                 </div>
-              <div class="descripcion">
-                  <a href="#"><p class="servicio-description">contáctanos</p></a>
-                
-              </div>
           </div>
       </div>
     </section>
@@ -200,7 +181,7 @@
       <div class="contenedor-informacion">
 
 
-            <div class="informacion">
+            <div class="informacion" id="vida">
                 
                 <div class="informacion-header">
                     <img class="foto6" loading="lazy" src="build/img/segurodevida.png" alt="Representante de seguro">
@@ -220,7 +201,7 @@
               <div class="separador"></div>
             </div>
 
-            <div class="informacion">
+            <div class="informacion" id="salud">
                 
                 <div class="informacion-header">
                     <img class="foto6" loading="lazy" src="build/img/segurodesalud.png" alt="Representante de seguro">
@@ -243,7 +224,7 @@
 
             <div class="informacion">
                 
-                <div class="informacion-header">
+                <div class="informacion-header" id="otros">
                   
                       <img class="foto6" loading="lazy" src="build/img/dentistas.png" alt="Representante de seguro">
                   
@@ -263,7 +244,7 @@
             </div>
 
 
-            <div class="informacion">
+            <div class="informacion" id="necesitas">
                 
                 <div class="informacion-header">
                       <img class="foto6" loading="lazy" src="build/img/seguronecesitas.png" alt="Representante de seguro">

@@ -99,16 +99,15 @@
 
 
 
-/* responsive telefono*/
 
-/*
-
-@include m.telefono12 {
+@media (max-width: 469.9px) {
     .contenedor-informacion{
         
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        margin: 10px;
+        margin-bottom: 0;
     }
     .separador {
 
@@ -122,30 +121,57 @@
         
       
     }
+
+    .informacion-header {
     
-}*/
-
-@include m.tabletx {
-    .contenedor-informacion{
-        
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-    }
-    .separador {
-
-       display: none;
-    }
-
-    .informacion-p {
-
-        margin-bottom: 20px;
-        margin-top: 15px;
-        
-      
+        height: 15rem;
+    
+        img {
+            height: 100%;
+        }
     }
     
+
+
 }
+
+@media (min-width: 470px) and (max-width: 760.9px) {
+    
+
+    .contenedor-informacion{
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .separador {
+
+       display: none;
+    }
+
+    .informacion-p {
+
+        margin-bottom: 20px;
+        margin-top: 15px;
+        
+    }
+
+    .informacion-header {
+    
+        height: 21rem;
+    
+        img {
+            height: 100%;
+        }
+    }
+    
+
+}
+
+
+
 
 
 @media (min-width: 761px) and (max-width: 1399px) {

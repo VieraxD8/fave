@@ -57,38 +57,10 @@
     
 }
 
-.description {
-    padding-left: 20px;
-  padding-right: 20px;
-}
-
-.servicio-description {
-    font-family: v.$mono;
-    font-weight: 300;
-    font-size: 20px;
-    color: v.$prinpipal;
-    margin-bottom: 20px;
-    text-align: center;
-    flex-grow: 1;
-
-}
-
-.servicio-description:hover {
-    color: yellow;
-}
 
 
-/* responsive telefono*/
-/*
-@include m.telefono12 {
-    .contenedor{
-        
-        display: flex;
-        flex-direction: column;
-    }
-}
-*/
-@include m.tabletx {
+
+@media (max-width: 469px) {
     .contenedor{
         
         display: flex;
@@ -98,12 +70,27 @@
         padding-left: 60px;
         padding-top: 0;
         padding-bottom: 0;
-        
+    
     }
+
 }
 
 
-@media (min-width: v.$telefonofold) and (max-width: v.$tabletx) {
+@media (min-width: 470px) and (max-width: v.$tabletx) {
+
+
+    .contenedor{
+        
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        
+    }
     .servicio-header {
     
         height: 199px;
