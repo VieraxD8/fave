@@ -43,8 +43,23 @@
     font-weight: bolder;
     line-height: 1;
     color: v.$prinpipal;
+    position: relative;
+    display: inline-block;
+    
     
 }
+
+
+.titulo::after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -5px;
+    left: 0;
+    background-color: v.$prinpipal;
+ }
+
 
 .separador-A {
     display: flex;
@@ -167,6 +182,7 @@
  
      .titulo {
          font-size: 20px;
+        
          
      }
 

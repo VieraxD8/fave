@@ -13,8 +13,8 @@
                       <img class="familia" loading="lazy" src="build/img/familia2.png" alt="imagen de familia">
                       <img class="familiatelefono" loading="lazy" src="build/img/saludtelefono.png" alt="imagen de familia">
                     </picture>
-                      <span class="title-1">Cobertura Integral de Salud</span>
-                      <p class="texto-1">Atención médica, hospitalización y medicamentos recetados</p>      
+                      <span class="title-1">&nbsp;Cobertura Integral de Salud &nbsp;</span>
+                      <p class="texto-1">&nbsp; Atención médica, hospitalización y medicamentos recetados&nbsp; </p>      
                 </div>
               
               <div class="slide">
@@ -22,8 +22,8 @@
                 <img class="sonrisa" loading="lazy"  src="build/img/sonrisa.png" alt="imagen de sonrisa">
                 <img class="sonrisatelefono" loading="lazy"  src="build/img/dientestelefono.png" alt="imagen de sonrisa">
               </picture>
-                <span class="title-2">Sonrisas Saludables <br>Garantizadas</span>
-                <p class="texto-2">Nuestro plan dental cubre limpiezas regulares, tratamientos y cirugía dental a precios asequibles</p>  
+                <span class="title-2">&nbsp; Sonrisas Saludables&nbsp;  <br>&nbsp; Garantizadas&nbsp; </span>
+                <p class="texto-2">&nbsp; Nuestro plan dental cubre limpiezas regulares, tratamientos y cirugía dental a precios asequibles&nbsp; </p>  
             </div>
 
             <div
@@ -33,7 +33,7 @@
                 <img class="visiontelefono" loading="lazy"  src="build/img/visiontelefono.png" alt="imagen de sonrisa">
               </picture>
               
-              <span class="title-3">Cuidado Visual Premium</span>
+              <span class="title-3">&nbsp; Cuidado Visual Premium&nbsp; </span>
               
             </div>
 
@@ -44,8 +44,8 @@
                 <img class="doctores" loading="lazy"  src="build/img/medicos1.png" alt="imagen de doctores">
                 <img class="doctorestelefono" loading="lazy"  src="build/img/revisiontelefono.png" alt="imagen de sonrisa">
               </picture>
-              <span class="title-4">Detección Temprana <br>Esperanza Duradera</span>
-                <p class="texto-4">Nuestra cobertura de diagnóstico de cáncer te brinda tranquilidad, con pruebas de detección temprana y tratamiento de vanguardia</p>  
+              <span class="title-4">&nbsp; Detección Temprana &nbsp;<br>&nbsp;Esperanza Duradera&nbsp; </span>
+                <p class="texto-4">&nbsp;Nuestra cobertura de diagnóstico de cáncer te brinda tranquilidad, con pruebas de detección temprana y tratamiento de vanguardia&nbsp;</p>  
               </div>
 
           
@@ -275,7 +275,7 @@
 
         <div class="asesores-titulos">
           <div class="titulos">
-            <h2 class="titulo">Protege lo que más te importa</h3>
+            <h2 class="titulo">!Protege lo que más te importa¡</h3>
           </div>
         </div>
 

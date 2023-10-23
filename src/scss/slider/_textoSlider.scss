@@ -13,6 +13,8 @@
     color: v.$prinpipal;
     font-size: 43px;
     top: 145px;
+    border-radius: 100px;
+    left: 680px;
 }
 
 .texto-1 {
@@ -20,13 +22,15 @@ font-family: v.$lato;
 font-size: 28px;
 color: v.$prinpipal;
 position: relative;
-background-color: rgba(255, 255, 255, 0.637);
+background-color: rgba(255, 255, 255, 0.2);
 margin: 0;
 padding: 0;
 line-height: 1;
 font-weight: 900;
 display: inline-block;
 top: 295px;
+border-radius: 100px;
+
 }
 
 /*slider 1*/
@@ -37,17 +41,17 @@ top: 295px;
        
     position: relative;
     top: 100px;
-    right: 200px;
-    background-color: rgba(255, 255, 255, 0.7);
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.2);
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
   
     font-weight: 700;
     color: v.$prinpipal;
-    font-size: 55px;
+    font-size: 35px;
     display: inline-block;
-
+    border-radius: 100px;
 
 }
 
@@ -56,14 +60,15 @@ font-family: v.$lato;
 font-size: 25px;
 color: v.$prinpipal;
 position: relative;
-background-color: rgba(255, 255, 255, 0.637);
+background-color: rgba(255, 255, 255, 0.2);
 margin: 0;
 padding: 0;
 line-height: 1;
 font-weight: 900;
 display: inline-block;
 top: 250px;
-left: 150px;
+
+border-radius: 100px;
 }
 
 
@@ -83,6 +88,7 @@ left: 150px;
     color: v.$prinpipal;
     font-size: 55px;
     top: 145px;
+    border-radius: 100px;
 }
 
 
@@ -96,32 +102,36 @@ left: 150px;
     position: relative;
     top: 180px;
     left: 280px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.2);
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
+    border-radius: 100px;
+    
   
     font-weight: 700;
    
     padding-left: 2px;
     padding-right: 0.5px;
     color: v.$prinpipal;
-    font-size: 55px;
+    font-size: 35px;
     display: inline-block;
 }
 
 .texto-4 {
     font-family: v.$lato;
-    font-size: 28px;
+    font-size: 23px;
     color: v.$prinpipal;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(255, 255, 255, 0.35);
     margin: 0;
     padding: 0;
     line-height: 1;
     font-weight: 900;
     display: inline-block;
-    top: 198px;
+    top: 280px;
+    right: 20px;
+    border-radius: 100px;
 }
 
 
@@ -133,8 +143,9 @@ left: 150px;
 @include m.tabletx {
     .title-1 {
 
-        font-size: 30px;
+        font-size: 20px;
         top: 150px;
+        left: 12px;
     
     }
 
@@ -146,9 +157,10 @@ left: 150px;
     /*slider 2*/
 
     .title-2 {
-        font-size: 30px;
-        top: 180;
-        right: 30px;
+        font-size: 20px;
+        top: 180px;
+        left: 5px;
+        
     }
 
     .texto-2 {
@@ -162,7 +174,7 @@ left: 150px;
     /*slider 3*/
     .title-3 {
         
-        font-size: 30px;
+        font-size: 20px;
         top: 150px;
     }
     /*slider 3*/
@@ -173,7 +185,7 @@ left: 150px;
         
         top: 170px;
         left: 0px;
-        font-size: 30px;
+        font-size: 20px;
         
     }
 
@@ -194,8 +206,9 @@ left: 150px;
 
     .title-1 {
 
-        font-size: 30px;
+        font-size: 28px;
         top: 150px;
+        left: 90px;
     
     }
 
@@ -233,8 +246,9 @@ left: 150px;
     
     .title-1 {
 
-        font-size: 48px;
+        font-size: 35px;
         top: 150px;
+       left: 80px;
     
     }
 
@@ -243,7 +257,7 @@ left: 150px;
     }
 
     .title-2 {
-        font-size: 48px;
+        font-size: 35px;
         top: 100;
         right: 80px;
     }
@@ -257,8 +271,7 @@ left: 150px;
         
         top: 170px;
         left: 0px;
-        font-size: 48px;
-        
+        font-size: 35px,
     }
 
     .texto-4 {
@@ -270,10 +283,14 @@ left: 150px;
   @media (min-width: 1450px) and (max-width: 1950px) {
 
     .title-2 {
-        font-size: 48px;
+        font-size: 32px;
         top: 100;
         right: -200px;
     }
+
+    .texto-2 {
+        display: none;
+     }
     
  
     .texto-2 {
