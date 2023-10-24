@@ -3,6 +3,11 @@
 @use '../base/variables' as v;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -29,13 +34,14 @@
     width: 100vw;
     position: relative;
     overflow: hidden;
-
     text-align: center;
     overflow: hidden;
-
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+    
 }
 
 
@@ -95,7 +101,7 @@
 .slide-indicators {
   position: absolute;
   text-align: center;
-  top: 420px;
+  margin-top: 420px;;
   z-index: 5;
 }
 
@@ -154,8 +160,7 @@
 
 /*imagenes del slider */
 
-
-/*responsive telefono*/
+/*responsive*/
 
  
 @include m.tabletx {
@@ -185,7 +190,7 @@
 
 
 
-/*responsive telefono*/
+
 
 
 @media (min-width: 761px) and (max-width: 1020px) {

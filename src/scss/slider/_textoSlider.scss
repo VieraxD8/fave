@@ -4,17 +4,18 @@
 /*slider 1*/
 .title-1 {
        
-    position: relative;
+    border-radius: 100px;
     font-family: v.$roboto ;
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.2);
     font-weight: 700;
     color: v.$prinpipal;
+    position: relative;
     font-size: 43px;
     top: 145px;
-    border-radius: 100px;
     left: 680px;
+    
 }
 
 .texto-1 {
@@ -40,8 +41,8 @@ border-radius: 100px;
 .title-2 {
        
     position: relative;
-    top: 100px;
-    left: 100px;
+    top: 150px;
+    right: 0px;
     background-color: rgba(255, 255, 255, 0.2);
     font-family: v.$roboto ;
     margin: 0;
@@ -50,8 +51,9 @@ border-radius: 100px;
     font-weight: 700;
     color: v.$prinpipal;
     font-size: 35px;
-    display: inline-block;
     border-radius: 100px;
+    display: inline-block;
+    
 
 }
 
@@ -140,7 +142,124 @@ border-radius: 100px;
 /*responsive telefono*/
 
 
-@include m.tabletx {
+  @media (min-width: 1250px) and (max-width: 1430px) {
+
+    .title-1 {
+       
+        font-size: 35px;
+        top: 145px;
+        left: 680px;
+        
+    }
+    
+    .texto-1 {
+            
+          top: 295px;
+ 
+    }
+
+    .title-2 {
+        font-size: 35px;
+        top: 150px;
+        left: 150px;
+       
+       
+    }
+    
+    .texto-2 {
+    top: 250px;
+    
+    }
+
+   
+  }
+
+
+  @media (min-width: 1020px) and (max-width: 1249.99px) {
+    
+    .title-1 {
+
+        font-size: 35px;
+        top: 150px;
+       left: 80px;
+    
+    }
+
+    .texto-1 {
+        top: 250px;
+    }
+/*
+    .title-2 {
+        font-size: 35px;
+        top: 100;
+        right: 80px;
+    }*/
+    
+
+
+    .title-4 {
+        
+        top: 170px;
+        left: 0px;
+        font-size: 35px,
+    }
+
+    .texto-4 {
+    display: none;
+    }
+  
+  }
+
+
+
+  /*responsive telefono*/
+
+
+  @media (min-width: 761px) and (max-width: 1020px) {
+
+    .title-1 {
+
+        font-size: 28px;
+        top: 150px;
+        left: 90px;
+    
+    }
+
+    .texto-1 {
+        top: 250px;
+    }
+
+    .title-2 {
+        font-size: 30px;
+        top: 100;
+        right: 80px;
+    }
+    
+    .texto-2 {
+       display: none;
+    }
+
+
+    .title-4 {
+        
+        top: 170px;
+        left: 0px;
+        font-size: 30px;
+        
+    }
+
+    .texto-4 {
+    display: none;
+    }
+    
+}
+ 
+
+
+
+  /*****************////
+
+  @include m.tabletx {
     .title-1 {
 
         font-size: 20px;
@@ -197,109 +316,3 @@ border-radius: 100px;
 /*slider 4*/
 
 }
-
-
-/*responsive telefono*/
-
-
-@media (min-width: 761px) and (max-width: 1020px) {
-
-    .title-1 {
-
-        font-size: 28px;
-        top: 150px;
-        left: 90px;
-    
-    }
-
-    .texto-1 {
-        top: 250px;
-    }
-
-    .title-2 {
-        font-size: 30px;
-        top: 100;
-        right: 80px;
-    }
-    
-    .texto-2 {
-       display: none;
-    }
-
-
-    .title-4 {
-        
-        top: 170px;
-        left: 0px;
-        font-size: 30px;
-        
-    }
-
-    .texto-4 {
-    display: none;
-    }
-    
-}
- 
-
-@media (min-width: 1020px) and (max-width: 1400px) {
-    
-    .title-1 {
-
-        font-size: 35px;
-        top: 150px;
-       left: 80px;
-    
-    }
-
-    .texto-1 {
-        top: 250px;
-    }
-
-    .title-2 {
-        font-size: 35px;
-        top: 100;
-        right: 80px;
-    }
-    
-    .texto-2 {
-       display: none;
-    }
-
-
-    .title-4 {
-        
-        top: 170px;
-        left: 0px;
-        font-size: 35px,
-    }
-
-    .texto-4 {
-    display: none;
-    }
-  
-  }
-
-  @media (min-width: 1450px) and (max-width: 1950px) {
-
-    .title-2 {
-        font-size: 32px;
-        top: 100;
-        right: -200px;
-    }
-
-    .texto-2 {
-        display: none;
-     }
-    
- 
-    .texto-2 {
-       
-        font-size: 25px;
-        top: 300px;
-        left: -150px;
-    }
-        
-
-   
-  }
