@@ -150,7 +150,7 @@
 
                         <div class="nosotros-contenedor">
                           <div class="nosotros-t">
-                            <a href="#"><p class="nosotros-title">Bienvenido a Fave Insurance</p></a>
+                            <a href="https://www.instagram.com/faveinsurance/?hl=es-la"><p class="nosotros-title">Bienvenido a Fave Insurance</p></a>
                           </div>
                           <div >
                             <p class="nosotros-description" >Sabemos que cada cliente tiene sus propias necesidades, por eso analizamos cada caso de forma independiente valorando las necesidades y las soluciones disponibles en el mercado asegurador</p>
@@ -284,7 +284,7 @@
             <div class="asesores">
 
                 <div class="asesor">
-                      <img class="" loading="lazy" src="build/img/image2.png" alt="Representante de seguro">
+                      <a href="https://wa.link/zd1m3p" TARGET="_BLANK"><img class="" loading="lazy" src="build/img/image2.png" alt="Representante de seguro"></a>
                 </div>
 
             </div>
@@ -301,7 +301,7 @@
             <div class="asesores">
 
                 <div class="asesor">
-                      <img class="" loading="lazy" src="build/img/image1.png" alt="Representante de seguro">
+                     <a href="https://wa.link/tzg2pe" TARGET="_BLANK"> <img class="" loading="lazy" src="build/img/image1.png" alt="Representante de seguro"></a>
                 </div>
                 
             </div>
@@ -327,10 +327,10 @@
           <div class="atencion">
               <div class="atencion-header">
                    
-                    <a href="#"> <img class="cobertura" loading="lazy" src="build/img/coberturaS.png" alt="cobertura"></a>
+                    <a href="https://wa.link/zd1m3p" TARGET="_BLANK"> <img class="cobertura" loading="lazy" src="build/img/coberturaS.png" alt="cobertura"></a>
               </div>
               <div class="atencion-t">
-                  <a href="#"><p class="atencion-title">Cobertura a Tu Medida</p></a>
+                  <a href="https://wa.link/zd1m3p" TARGET="_BLANK"><p class="atencion-title">Cobertura a Tu Medida</p></a>
               </div>
               <div class="atencion-d">
                   <p class="atencion-description">Seleccionamos la póliza óptima para ti, maximizando la cobertura al precio más competitivo.</p>
@@ -342,10 +342,10 @@
 
           <div class="atencion">
               <div class="atencion-header">
-               <a href="#"> <img class="tellamamos" loading="lazy" src="build/img/tellamamosS.png" alt="tellamamos"></a>
+               <a href="https://wa.link/zd1m3p" TARGET="_BLANK"> <img class="tellamamos" loading="lazy" src="build/img/tellamamosS.png" alt="tellamamos"></a>
               </div>
               <div class="atencion-t">
-                  <a href="#"><p class="atencion-title">Te llamamos</p></a>
+                  <a href="https://wa.link/zd1m3p" TARGET="_BLANK"><p class="atencion-title">Te llamamos</p></a>
               </div>
               <div class="atencion-d">
                   <p class="atencion-description">Deja tus datos y recibirás una llamada de nuestro equipo en breve.</p>
@@ -355,10 +355,10 @@
 
           <div class="atencion">
               <div class="atencion-header">
-                 <a href="#"><img class="atencions" loading="lazy" src="build/img/atencionS.png" alt="atencion"></a>
+                 <a href="https://wa.link/zd1m3p" TARGET="_BLANK"><img class="atencions" loading="lazy" src="build/img/atencionS.png" alt="atencion"></a>
               </div>
               <div class="atencion-t">
-                    <a href="#"><p class="atencion-title">Atención personalizada 24/7</p></a>
+                    <a href="https://wa.link/zd1m3p" TARGET="_BLANK"><p class="atencion-title">Atención personalizada 24/7</p></a>
               </div>
               <div class="atencion-d">
                   <p class="atencion-description">Desde el primer momento tras un siniestro, gestionamos y te asesoramos en todo el proceso.</p>
