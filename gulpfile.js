@@ -27,7 +27,7 @@ function css(callback) {
         .pipe(postcss([autoprefixer(), cssnano()]))
         // .pipe(postcss([autoprefixer()]))
         .pipe(sourcemaps.write('.'))
-        .pipe( dest('public/build/css') );
+        .pipe( dest('build/css') );
 
     callback();
 }
@@ -37,14 +37,14 @@ function javascript(callback) {
     src(paths.js)
       .pipe(terser())
       .pipe(sourcemaps.write('.'))
-      .pipe(dest('public/build/js'));
+      .pipe(dest('build/js'));
       callback()
 }
 
 function imagenes(callback) {
     src(paths.imagenes)
         .pipe(cache(imagemin({ optimizationLevel: 3})))
-        .pipe(dest('public/build/img'))
+        .pipe(dest('build/img'))
         .pipe(notify({ message: 'Imagen Completada'}));
 
         callback();
@@ -53,7 +53,7 @@ function imagenes(callback) {
 function versionWebp(callback) {
     src(paths.imagenes)
         .pipe( webp() )
-        .pipe(dest('public/build/img'))
+        .pipe(dest('build/img'))
         .pipe(notify({ message: 'Imagen Completada'}));
         
     callback();
